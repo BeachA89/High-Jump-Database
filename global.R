@@ -15,7 +15,7 @@ library(RColorBrewer)
 library(forcats)
 library(tidyverse)
 
-data_folder <- "C:/Users/aaron.beach/OneDrive - nswis.com.au/GitHub/High-Jump-Conversion/Processed data"
+data_folder <- "/Users/aaron/Documents/GitHub/High-Jump-Database/Processed data 1"
 
 filenames = list.files(data_folder, pattern = "*.csv", full.names = T)
 dataname = basename(filenames)
