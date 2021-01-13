@@ -24,7 +24,7 @@ dataname <-  str_remove_all(dataname, ".csv")
 
 table1 <-  lapply(filenames, fread, header=TRUE, stringsAsFactors=FALSE)
 
-#imported_data <- read.csv("C:/Users/aaron.beach/OneDrive - nswis.com.au/R/Hammer Conversion/sample2.csv", header=FALSE, stringsAsFactors=FALSE)
+#imported_data <- read.csv("C:/Users/aaron.beach/..../R/Hammer Conversion/sample2.csv", header=FALSE, stringsAsFactors=FALSE)
 
 
 Collateddata =rbindlist(table1, fill=TRUE)
